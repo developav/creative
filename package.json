@@ -1,0 +1,24 @@
+{
+  "name": "Novakit",
+  "version": "1.0.0",
+  "description": "Novakit HTML form template",
+  "author": "creativecult.ru",
+  "dependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "8.0.0",
+    "gulp-cssmin": "*",
+    "gulp-file-include": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-rigger": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify-es": "*",
+    "gulp-version-number": "*",
+    "gulp-watch": "*",
+    "rimraf": "*",
+    "sass": "*",
+    "uikit": "*"
+  }
+}

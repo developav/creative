@@ -1,0 +1,302 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "TT Firs Neue", sans-serif;
+  color: black;
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f9f9fd;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #18aaaa;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.head {
+  position: relative;
+  min-height: 2065px;
+  background: linear-gradient(#1C274A, #040711);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.head__progress-list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 10;
+  width: 84%;
+}
+.head__progress-item-text {
+  font-size: 14px;
+  color: #A6A9B1;
+}
+.head__progress-item-head {
+  font-size: 48px;
+  color: #FCFCFC;
+}
+.head__progress-item-head-text {
+  font-size: 20px;
+  color: #A6A9B1;
+}
+.head__progress-item-border {
+  display: block;
+  margin-bottom: 2px;
+  height: 2px;
+  background: linear-gradient(to right, #ffffff, #242735);
+}
+.head__group {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+.head__group-women {
+  z-index: 9;
+  background-image: url("../img/image 569.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 3%;
+  right: 0%;
+  overflow-x: hidden;
+  width: 64%;
+  height: 39%;
+}
+.head__group-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 6px;
+  background-color: #1D2542;
+}
+.head__group-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 73%;
+  padding: 7px 20px;
+}
+.head__group-list {
+  display: flex;
+  flex-direction: row;
+}
+.head__group-social {
+  display: flex;
+  flex-direction: row;
+  width: 22%;
+  padding: 5px 16px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.head__group-email {
+  background-color: #D5E2FC;
+  padding: 13px;
+  border-radius: 50px;
+}
+.head__group-phone {
+  background-color: #D5E2FC;
+  padding: 13px;
+  border-radius: 50px;
+}
+.head__group-send {
+  z-index: 10;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 34%;
+}
+.head__about {
+  z-index: 10;
+}
+.head__about-group {
+  position: relative;
+  z-index: 10;
+  padding-top: 129px;
+  width: 56%;
+  margin-bottom: 95px;
+}
+.head__about-head {
+  font-size: 64px;
+  color: #FCFCFC;
+}
+.head__about-text {
+  font-size: 64px;
+  padding: 0px 25px;
+  border-radius: 50px;
+  background-color: #4AD6FF;
+  color: #FCFCFC;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.head__about-description {
+  color: #FCFCFC;
+}
+.head__nav-list-desctop {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 66%;
+  z-index: 10;
+}
+.head__nav-list {
+  display: flex;
+  flex-direction: row;
+}
+.head__nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.head__group-dropbtn {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #D5E2FC;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.head__group-lang {
+  padding: 7px 10px;
+  border-radius: 50px;
+  width: 8%;
+  background-color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.head__group-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: inherit;
+  width: 72%;
+  padding: 7px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.head__group-dropbtn {
+  background: url("../img/Frame 277131853.png") no-repeat left center;
+  padding-left: 25px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #D5E2FC;
+}
+
+.head__group-dropbtn::after {
+  background: rgba(0, 0, 0, 0) url("../img/Vector.png") no-repeat scroll center center;
+  content: "";
+  height: 16px;
+  position: absolute;
+  right: 30%;
+  top: 38%;
+  width: 16px;
+}
+
+.head__group-dropdown-content a:first-child {
+  background: url("../img/Frame 277131853.png") no-repeat left center;
+}
+
+.head__group-dropdown-content a:last-child {
+  background: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png") no-repeat left center;
+}
+
+/* Links inside the dropdown */
+.head__group-dropdown-content a {
+  color: black;
+  padding: 2px 0 2px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.head__group-dropdown-content a:hover {
+  background-color: inherit;
+}
+
+/* Show the dropdown menu on hover */
+.head__group-lang:hover .head__group-dropdown-content {
+  display: block;
+}
