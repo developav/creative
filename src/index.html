@@ -74,10 +74,17 @@
                 </div>
             </div>
             <div class="head__nav-bar">
-                <nav class="head__nav-list-desctop head__nav-list-mobile">
+                <nav class="head__nav-list-desctop">
                     <ul class="head__nav-list">
                         <li class="head__nav-item">
-                            <a href="#" class="head__nav-link">Услуги</a>
+                            <div class="dropdown">
+                                <a class="head__nav-link dropbtn">Услуги</a>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                            </div>
                         </li>
                         <li class="head__nav-item">
                             <a href="#" class="head__nav-link">О холдинге</a>
@@ -86,7 +93,14 @@
                             <a href="#" class="head__nav-link">Кейсы</a>
                         </li>
                         <li class="head__nav-item">
-                            <a href="#" class="head__nav-link">Медиа</a>
+                            <div class="dropdown">
+                                <a class="head__nav-link dropbtn">Медиа</a>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                            </div>
                         </li>
                         <li class="head__nav-item">
                             <a href="#" class="head__nav-link">Вакансии</a>
@@ -98,7 +112,11 @@
                 </nav>
                 <div class="head__group-send">
                     <a href="#" class="head__send-cv">Отправить резюме</a>
-                    <a href="#" class="head__send-talk">Обсудить проект</a>
+                    <a href="#" class="head__send-talk">Обсудить проект
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.2837 0.263642C5.79055 0.318436 5.58356 0.351921 5.28523 0.415847C2.91693 0.936386 1.03264 2.79633 0.42382 5.2042C0.177249 6.19049 0.177249 7.29245 0.42382 8.28482C0.560804 8.82363 0.828684 9.52377 1.06612 9.9469C1.24268 10.2665 1.23964 10.3091 0.95958 11.2437C0.6917 12.1356 0.667347 12.2939 0.779979 12.437C0.849993 12.5283 1.00524 12.6044 1.11787 12.6044C1.16049 12.6044 1.541 12.5009 1.96413 12.373C2.97781 12.0717 2.84996 12.0595 3.78754 12.5496C4.69468 13.0275 5.64444 13.2558 6.72509 13.2558C7.78139 13.2589 8.66113 13.0549 9.61698 12.5892C11.3491 11.749 12.5515 10.3 13.0264 8.48878C13.4343 6.92107 13.2821 5.33814 12.588 3.91351C11.6322 1.9592 9.84528 0.641109 7.71442 0.32148C7.40392 0.275819 6.49678 0.239289 6.2837 0.263642ZM4.13152 6.06873C4.51812 6.29399 4.64902 6.72929 4.4542 7.11894C4.30199 7.42335 4.04933 7.58164 3.71448 7.58164C3.42225 7.58164 3.10262 7.35942 2.97781 7.07328C2.91693 6.92716 2.91389 6.62579 2.97477 6.48272C3.04174 6.31834 3.23352 6.12048 3.40703 6.03828C3.61707 5.93783 3.93061 5.95001 4.13152 6.06873ZM7.04472 6.0322C7.68702 6.32139 7.69616 7.20722 7.05994 7.50858C6.50896 7.77037 5.8697 7.3168 5.92754 6.69885C5.96407 6.27572 6.30196 5.96827 6.72509 5.96827C6.84381 5.96827 6.95644 5.99262 7.04472 6.0322ZM10.0705 6.04437C10.5667 6.28486 10.6824 6.95456 10.2958 7.3442C10.1527 7.48423 9.98836 7.56033 9.7844 7.57555C9.44651 7.5999 9.18167 7.45683 9.0112 7.15547C8.92901 7.01239 8.91684 6.9576 8.91684 6.77495C8.91684 6.59535 8.93206 6.53447 9.00816 6.39749C9.11166 6.2118 9.25777 6.0809 9.43433 6.01393C9.59567 5.95609 9.91834 5.96827 10.0705 6.04437Z" fill="#FCFCFC"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -137,13 +155,17 @@
                             <h3 class="head__card-head">Swift Technical</h3>
                             <p class="head__card-text">Подбор, временный персонал, технико-консультационные услуги</p>
                         </div>
-                        <a class="head__card-link" href="#"></a>
+                        <a class="head__card-link" href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 6V8H14.59L5 17.59L6.41 19L16 9.41V18H18V6H6Z" fill="#145CEF"/>
+                            </svg>                                    
+                        </a>
                     </div>
                     <div class="head__card-links">
-                        <a href="">Подбор персонала</a><span></span>
-                        <a href="">Временный персонал</a>
-                        <a href="">Консультационные услуги</a><span></span>
-                        <a href="">Еще одна услуга</a>
+                        <a class="head__card-links-task" href="">Подбор персонала</a><span class="head__card-links-border">//</span>
+                        <a class="head__card-links-task" href="">Временный персонал</a>
+                        <a class="head__card-links-task" href="">Консультационные услуги</a><span class="head__card-links-border">//</span>
+                        <a class="head__card-links-task" href="">Еще одна услуга</a>
                     </div>
                 </div>
             </div>
@@ -154,18 +176,56 @@
                             <h3 class="head__card-head">Nordcore</h3>
                             <p class="head__card-text">Карьерное консультирование B2C и корпоративное обучение B2B</p>
                         </div>
-                        <a class="head__card-link" href="#"></a>
+                        <a class="head__card-link" href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 6V8H14.59L5 17.59L6.41 19L16 9.41V18H18V6H6Z" fill="#145CEF"/>
+                            </svg>    
+                        </a>
                     </div>
                     <div class="head__card-links">
-                        <a href="">Обучение и оценка</a><span>//</span>
-                        <span>//</span><a href="">Консультационные услуги</a>
+                        <a class="head__card-links-task" href="">Обучение и оценка</a><span class="head__card-links-border to__right">//</span>
+                        <span class="head__card-links-border">//</span><a class="head__card-links-task" href="">Консультационные услуги</a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="head__result-group">
+            <div class="head__result-group-text">
+                <h1 class="head__result-head">// Формируем команды,</h1>
+                <p class="head__result-text">подбираем специалистов</p>
+                <p class="head__result-description">Собираем эффективные команды и помогаем ими управлять.В любых формах занятости, для решения любых задач.</p>
+            </div>
+            <a href="#" class="head__result-link">Подробнее о холдинге
+                <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.66993 0.475239C1.15383 0.588903 0.693026 0.954473 0.444193 1.44599C0.235296 1.86686 0.244512 1.52279 0.253728 7.05549L0.262944 12.0567L0.330528 12.2564C0.533281 12.8493 1.00023 13.3101 1.58391 13.4944L1.79895 13.562H5.50073H9.2025L9.44826 13.4791C10.0442 13.2763 10.4313 12.8923 10.674 12.2564C10.7385 12.0874 10.7385 12.069 10.7477 8.50855C10.7539 5.90656 10.7477 4.8805 10.7231 4.74534C10.6801 4.53337 10.5542 4.24153 10.4159 4.03877C10.3299 3.91282 7.59584 1.09271 7.36237 0.88996C7.19033 0.739431 6.963 0.61348 6.71417 0.527463L6.46841 0.444518L4.1644 0.438375C2.30583 0.435303 1.82353 0.441446 1.66993 0.475239ZM5.66047 5.80518C5.80178 5.84512 5.98303 6.04173 6.01068 6.18918C6.05369 6.41651 5.97996 6.6039 5.79564 6.73907C5.71577 6.80051 5.66661 6.80358 4.58527 6.8128C3.96472 6.81894 3.41176 6.8128 3.35646 6.80358C3.21515 6.77901 3.02776 6.58547 2.98475 6.42573C2.91716 6.18304 3.03697 5.94035 3.27044 5.83283C3.38411 5.7806 3.49163 5.77446 4.4716 5.77446C5.10444 5.77446 5.59289 5.78675 5.66047 5.80518ZM7.73715 8.52084C8.18566 8.75738 8.10579 9.38407 7.61427 9.4916C7.49753 9.51617 6.8647 9.52232 5.40857 9.51617C3.4732 9.50696 3.35953 9.50388 3.24894 9.44859C2.89873 9.27655 2.86801 8.7666 3.19672 8.54849L3.29809 8.47783H5.47615C7.29171 8.47783 7.66649 8.48397 7.73715 8.52084Z" fill="#FCFCFC"/>
+                </svg>
+            </a>
+        </div>
+        <ul class="head__progress-list">
+            <li class="head__progress-item">
+                <h2 class="head__progress-item-head">78 <span class="head__progress-item-head-text">%</span></h2>
+                <span class="head__progress-item-border"></span>
+                <p class="head__progress-item-text">Высокий процент закрытия вакансий</p>
+            </li>
+            <li class="head__progress-item">
+                <h2 class="head__progress-item-head">20–40 <span class="head__progress-item-head-text">дней</span></h2>
+                <span class="head__progress-item-border"></span>
+                <p class="head__progress-item-text">Средний срок закрытия вакансий</p>
+            </li>
+            <li class="head__progress-item">
+                <h2 class="head__progress-item-head">10 000 <span class="head__progress-item-head-text"></span></h2>
+                <span class="head__progress-item-border"></span>
+                <p class="head__progress-item-text">Сотрудников подобрали за 25 ле</p>
+            </li>
+            <li class="head__progress-item">
+                <h2 class="head__progress-item-head">300 000 <span class="head__progress-item-head-text"></span></h2>
+                <span class="head__progress-item-border"></span>
+                <p class="head__progress-item-text">Специалистов в собственной базе</p>
+            </li>
+        </ul>
     </div>
     <span class="head__group-women"></span>
-    <span class="head__group-women"></span>
+    <span class="head__group-swim"></span>
 </section>
 
 @@include('template/footer.html')
